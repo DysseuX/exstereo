@@ -1,0 +1,28 @@
+{
+  "retrieved": "2026-09-22",
+  "sources": [
+    {
+      "upstream_file": "surroundupmix/SurroundUpmix-v3.1.ps1",
+      "bundled": false,
+      "url": "https://forum.videohelp.com/attachments/93277-1785805162/SurroundUpmix.txt",
+      "sha256": "97576d5d70dc6c62d6901d4a09eb7a089489e04814179738872d53d42df10d89"
+    },
+    {
+      "file": "centercut/dsp_centercut.cpp",
+      "url": "https://www.moitah.net/download/latest/dsp_centercut.zip",
+      "sha256": "3e99b148e1d0103916368a29256f4c01c1f603601a70f52829fa5723b7b6fcd6"
+    },
+    {
+      "file": "centercut/GPL.txt",
+      "url": "https://www.moitah.net/download/latest/dsp_centercut.zip",
+      "sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b"
+    }
+  ],
+  "reference_assembly": {
+    "url": "https://www.moitah.net/download/latest/Center_Cut_GUI.zip",
+    "member": "AnyCPU/CenterCutCL.exe",
+    "version": "1.6.0",
+    "sha256": "b9180d10da2b8faa5eba5c10643a1aee871747f654a9a35701e69b942a9df511",
+    "archive_sha256": "6cc0d712192f5fac6dcd2963bf5bd26783b8a1efa4a934ed716716c9b1e04eec"
+  }
+}

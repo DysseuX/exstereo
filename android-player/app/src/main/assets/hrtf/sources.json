@@ -1,0 +1,20 @@
+[
+  {
+    "file": "mit_kemar_normal_pinna.sofa",
+    "url": "https://sofacoustics.org/data/database/mit/mit_kemar_normal_pinna.sofa",
+    "bytes": 1171764,
+    "sha256": "e7035994f5fd754058424c061380ee92b1d5ed58fccef2887a4266916616acdf"
+  },
+  {
+    "file": "sadie_h3.sofa",
+    "url": "https://sofacoustics.org/data/database/sadie/H3_48K_24bit_256tap_FIR_SOFA.sofa",
+    "bytes": 11656471,
+    "sha256": "e0ca2a7d3a345b6d5e4513f09fc4b71bebe2235aff93f7b27a716a0d5a3772fd"
+  },
+  {
+    "file": "sadie_h10.sofa",
+    "url": "https://sofacoustics.org/data/database/sadie/H10_48K_24bit_256tap_FIR_SOFA.sofa",
+    "bytes": 8753320,
+    "sha256": "5d1d610395d142a6a10b36cc8f593b11f27566611f8d0d50022ef21dfb181099"
+  }
+]

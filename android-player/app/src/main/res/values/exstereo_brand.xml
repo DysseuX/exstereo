@@ -1,0 +1,9 @@
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <color name="exstereo_icon_background">#EAF3F8</color>
+    <string name="spatial_open_file">Open file</string>
+    <string name="exstereo_developer" translatable="false">DysseuX</string>
+    <string name="exstereo_company" translatable="false">DysseuX Group</string>
+    <string name="exstereo_about_details">Version %1$s\n\nDeveloper: %2$s\nCompany: %3$s\n\nBased on Fossify Music Player.</string>
+</resources>

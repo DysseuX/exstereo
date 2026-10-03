@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="equalizer_flat">Flat · 0 дБ</string>
+    <string name="equalizer_reset_flat">Сбросить в Flat</string>
+    <string name="equalizer_30_title">Эквалайзер · 30 полос</string>
+    <string name="equalizer_30_details">25 Гц–20 кГц · от −12 до +12 дБ. Работает во всех режимах звука. Изменения слышны сразу. При усилении полос автоматически снижается общий уровень для запаса по громкости. Полосы выше половины частоты дискретизации трека не обрабатываются.</string>
+    <string name="equalizer_legacy_pending">Прежнюю кривую системного эквалайзера пока не удалось прочитать. Она сохранена как резерв; новый эквалайзер уже работает. Выбор пресета или изменение полосы сохранит новую кривую из 30 полос.</string>
+    <string name="equalizer_bass">Бас</string>
+    <string name="equalizer_voice">Вокал</string>
+    <string name="equalizer_soft_highs">Мягкие высокие</string>
+    <string name="equalizer_gain">%1$s дБ</string>
+    <string name="equalizer_hz">%1$s Гц</string>
+    <string name="equalizer_khz">%1$s кГц</string>
+</resources>

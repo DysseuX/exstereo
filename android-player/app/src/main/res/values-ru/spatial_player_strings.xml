@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="spatial_player_diagnostics">О приложении и диагностика</string>
+    <string name="spatial_player_tab_queue">Очередь</string>
+    <string name="spatial_player_tab_player">Плеер</string>
+    <string name="spatial_player_tab_folders">Папки</string>
+    <string name="spatial_player_sound">Звук</string>
+    <string name="spatial_player_library">Библиотека</string>
+    <string name="spatial_player_rescan">Обновить музыку</string>
+    <string name="spatial_player_permission">Разрешить доступ к музыке</string>
+    <string name="spatial_player_permission_denied">Для списка папок нужен доступ к аудиофайлам. Разрешите его кнопкой ниже или откройте настройки приложения.</string>
+    <string name="spatial_player_empty_title">Выберите музыку</string>
+    <string name="spatial_player_empty_hint">Смахните влево, чтобы открыть папки. Смахните вправо, чтобы увидеть очередь.</string>
+    <string name="spatial_player_open_folders">Открыть папки</string>
+    <string name="spatial_player_scanning">Ищем музыку на устройстве…</string>
+    <string name="spatial_player_no_folders">Музыка пока не найдена. Скопируйте FLAC, MP3 или Opus на телефон и нажмите «Обновить музыку».</string>
+    <string name="spatial_player_no_queue">Очередь пуста. Откройте папку справа или выберите плейлист в библиотеке.</string>
+    <string name="spatial_player_folder_hint">Выберите папку, затем трек для воспроизведения.</string>
+    <string name="spatial_player_back_folders">Все папки</string>
+    <string name="spatial_player_play_folder">Играть папку</string>
+    <string name="spatial_player_tracks_count">Треков: %1$d</string>
+    <string name="spatial_player_queue_count">В очереди: %1$d</string>
+    <string name="spatial_player_play">Воспроизвести</string>
+    <string name="spatial_player_pause">Пауза</string>
+    <string name="spatial_player_previous">Предыдущий трек</string>
+    <string name="spatial_player_next">Следующий трек</string>
+    <string name="spatial_player_seek">Позиция воспроизведения</string>
+    <string name="spatial_player_artwork">Обложка альбома</string>
+    <string name="spatial_player_error">Не удалось воспроизвести файл: %1$s</string>
+    <string name="spatial_player_load_error">Не удалось прочитать музыкальную библиотеку. Проверьте разрешение и обновите список.</string>
+</resources>

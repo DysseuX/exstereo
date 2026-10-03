@@ -1,0 +1,167 @@
+[
+  {
+    "name": "aac-lc-44100.m4a",
+    "rate": 44100,
+    "channels": 2
+  },
+  {
+    "name": "aac-lc-48000.m4a",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "alac-44100.m4a",
+    "rate": 44100,
+    "channels": 2
+  },
+  {
+    "name": "alac-96000.m4a",
+    "rate": 96000,
+    "channels": 2
+  },
+  {
+    "name": "alac-192000.m4a",
+    "rate": 192000,
+    "channels": 2
+  },
+  {
+    "name": "flac-44100.flac",
+    "rate": 44100,
+    "channels": 2
+  },
+  {
+    "name": "flac-96000.flac",
+    "rate": 96000,
+    "channels": 2
+  },
+  {
+    "name": "flac-192000.flac",
+    "rate": 192000,
+    "channels": 2
+  },
+  {
+    "name": "opus-1ch.opus",
+    "rate": 48000,
+    "channels": 1
+  },
+  {
+    "name": "opus-2ch.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-3ch.opus",
+    "rate": 48000,
+    "channels": 3
+  },
+  {
+    "name": "opus-4ch.opus",
+    "rate": 48000,
+    "channels": 4
+  },
+  {
+    "name": "opus-5ch.opus",
+    "rate": 48000,
+    "channels": 5
+  },
+  {
+    "name": "opus-6ch.opus",
+    "rate": 48000,
+    "channels": 6
+  },
+  {
+    "name": "opus-7ch.opus",
+    "rate": 48000,
+    "channels": 7
+  },
+  {
+    "name": "opus-8ch.opus",
+    "rate": 48000,
+    "channels": 8
+  },
+  {
+    "name": "opus-frame-2.5-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-5-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-10-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-20-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-40-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-60-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-frame-120-cbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-voip-8k.opus",
+    "rate": 48000,
+    "channels": 1
+  },
+  {
+    "name": "opus-constrained-vbr.opus",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-stereo.ogg",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-stereo.oga",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-stereo.webm",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-stereo.mka",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "opus-stereo.m4a",
+    "rate": 48000,
+    "channels": 2
+  },
+  {
+    "name": "ac3-6ch.ac3",
+    "rate": 48000,
+    "channels": 6
+  },
+  {
+    "name": "eac3-6ch.eac3",
+    "rate": 48000,
+    "channels": 6
+  },
+  {
+    "name": "eac3-6ch.m4a",
+    "rate": 48000,
+    "channels": 6
+  }
+]

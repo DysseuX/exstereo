@@ -1,0 +1,31 @@
+{
+  "repository": "miccio-dk/itsadive_hybrid_structural_model",
+  "commit": "e43fbd5c50c1b15e6f1051b72d1f562ed736b8e8",
+  "files": [
+    {
+      "path": "python/checkpoints/vae_incept_edges.ckpt",
+      "size": 71702728,
+      "sha256": "9cefb42ee0ab97389b55d172e96b6415cc368ec6b6f3ecdae4b73d5bf333072a"
+    },
+    {
+      "path": "python/checkpoints/dnn_edge_fullgrid.ckpt",
+      "size": 1525894,
+      "sha256": "b3c6582eeaeb05766dde46ec197025cc29b91527003857582e2a8ab4d25e2a82"
+    },
+    {
+      "path": "python/checkpoints/cvae_dense_fullgrid.ckpt",
+      "size": 2693962,
+      "sha256": "c87257e2208834f46e8876a480eee74bd250f5343cf64bb52fd196eab2af5ccf"
+    },
+    {
+      "path": "matlab/data/subj_Z.sofa",
+      "size": 2810320,
+      "sha256": "44451d557b8bce68f797f7cf085129e169186d72d884dd1447dd93c6a93160c2"
+    },
+    {
+      "path": "python/models/vae_incept.py",
+      "size": 7604,
+      "sha256": "002f45e80277cf99c934c61cffb3075171fe169b693bb6ab4b632434b3c085ee"
+    }
+  ]
+}

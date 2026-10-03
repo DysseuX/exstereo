@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="exstereo_about_title">О приложении</string>
+    <string name="exstereo_about_summary">Версия %1$s\n\nНа основе Fossify Music Player.</string>
+    <string name="exstereo_about_close">Закрыть</string>
+    <string name="exstereo_about_licenses">Лицензии компонентов</string>
+    <string name="exstereo_about_license_list">К списку</string>
+</resources>

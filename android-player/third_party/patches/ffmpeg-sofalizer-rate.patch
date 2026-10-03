@@ -1,0 +1,49 @@
+--- a/libavfilter/af_sofalizer.c
++++ b/libavfilter/af_sofalizer.c
+@@ -67,6 +67,7 @@
+     MySofa sofa;                /* contains data of the SOFA file */
+ 
+     int sample_rate;            /* sample rate from SOFA file */
++    int requested_sample_rate;  /* Spatial Music: resample IRs, never the live PCM */
+     float *speaker_azim;        /* azimuth of the virtual loudspeakers */
+     float *speaker_elev;        /* elevation of the virtual loudspeakers */
+     char *speakers_pos;         /* custom positions of the virtual loudspeakers */
+@@ -150,7 +151,15 @@
+     ret = mysofa_check(mysofa);
+     if (ret != MYSOFA_OK) {
+         av_log(ctx, AV_LOG_ERROR, "Selected SOFA file is invalid. Please select valid SOFA file.\n");
+-        return ret;
++        /* libmysofa errors are positive; libavfilter failures must be negative. */
++        return AVERROR(EINVAL);
++    }
++
++    if (s->requested_sample_rate &&
++        s->requested_sample_rate != mysofa->DataSamplingRate.values[0]) {
++        ret = mysofa_resample(mysofa, s->requested_sample_rate);
++        if (ret != MYSOFA_OK)
++            return AVERROR(EINVAL);
+     }
+ 
+     if (s->normalize)
+@@ -304,9 +313,10 @@
+             return AVERROR(EINVAL);
+         }
+ 
+-        if (s->vspkrpos[ch].set) {
+-            azim[ch] = s->vspkrpos[ch].azim;
+-            elev[ch] = s->vspkrpos[ch].elev;
++        /* User positions are keyed by AVChannel, not its packed PCM index. */
++        if (s->vspkrpos[chan].set) {
++            azim[ch] = s->vspkrpos[chan].azim;
++            elev[ch] = s->vspkrpos[chan].elev;
+         }
+     }
+ 
+@@ -1060,6 +1070,7 @@
+ 
+ static const AVOption sofalizer_options[] = {
+     { "sofa",      "sofa filename",  OFFSET(filename),  AV_OPT_TYPE_STRING, {.str=NULL},            .flags = FLAGS },
++    { "sample_rate", "resample IRs to this rate (0 keeps original)", OFFSET(requested_sample_rate), AV_OPT_TYPE_INT, {.i64=0}, 0, 192000, FLAGS },
+     { "gain",      "set gain in dB", OFFSET(gain),      AV_OPT_TYPE_FLOAT,  {.dbl=0},     -20,  40, .flags = FLAGS },
+     { "rotation",  "set rotation"  , OFFSET(rotation),  AV_OPT_TYPE_FLOAT,  {.dbl=0},    -360, 360, .flags = FLAGS },
+     { "elevation", "set elevation",  OFFSET(elevation), AV_OPT_TYPE_FLOAT,  {.dbl=0},     -90,  90, .flags = FLAGS },

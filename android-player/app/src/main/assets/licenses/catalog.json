@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Fossify Music Player / Commons — GPL-3.0",
+    "notice": "Based on Fossify Music Player 1.8.1 and Fossify Commons 6.1.5.\nFossify and contributors to the original projects. exstereo modifies the original player.\nhttps://github.com/FossifyOrg/Music-Player\nhttps://github.com/FossifyOrg/Commons",
+    "files": [
+      "GPL-3.0.txt"
+    ]
+  },
+  {
+    "title": "FreeSurround — GPL-2.0-or-later",
+    "notice": "Multichannel upmix algorithm from Dolphin.\nhttps://github.com/dolphin-emu/dolphin/tree/233b2dfe6d6427bed6874d641dfab04ccac2974e/Externals/FreeSurround",
+    "files": [
+      "FreeSurround-NOTICE.txt",
+      "GPL-2.0.txt"
+    ]
+  },
+  {
+    "title": "Kiss FFT — BSD-3-Clause",
+    "notice": "Fourier transform; Mark Borgerding.",
+    "files": [
+      "KissFFT.txt"
+    ]
+  },
+  {
+    "title": "Steam Audio — Apache-2.0 and additional terms",
+    "notice": "Steam Audio 4.8.1; Valve Corporation.\nhttps://github.com/ValveSoftware/steam-audio\nThe full SDK notices are preserved below; individual components apply depending on the platform.",
+    "files": [
+      "SteamAudio-LICENSE.txt",
+      "SteamAudio-THIRDPARTY.txt"
+    ]
+  },
+  {
+    "title": "OpenAL Soft — LGPL-2.0-or-later",
+    "notice": "OpenAL Soft 1.25.2; spatial renderer.\nhttps://github.com/kcat/openal-soft\nPFFFT, fmt and Microsoft GSL are also used under the separate licenses below.",
+    "files": [
+      "LGPL-2.0.txt",
+      "OpenAL-PFFFT.txt",
+      "fmt.txt",
+      "Microsoft-GSL.txt",
+      "Microsoft-GSL-NOTICES.txt"
+    ]
+  },
+  {
+    "title": "FFmpeg — LGPL-2.1-or-later",
+    "notice": "FFmpeg 8.1.3; audio decoding and signal processing. A minimal build without GPL/nonfree options is used.\nhttps://ffmpeg.org",
+    "files": [
+      "FFmpeg-NOTICE.txt",
+      "LGPL-2.1.txt"
+    ]
+  },
+  {
+    "title": "libmysofa / Speex resampler — BSD-3-Clause",
+    "notice": "libmysofa 1.3.5; SOFA loading and HRTF interpolation.\nhttps://github.com/hoene/libmysofa",
+    "files": [
+      "libmysofa.txt",
+      "Speex-resampler.txt"
+    ]
+  },
+  {
+    "title": "StereoWidener — CC0-1.0",
+    "notice": "Adapted StereoWidener DSP; Orchisama Das.\nhttps://github.com/orchidas/StereoWidener/tree/8964075a97e6aa3b2b5264b93fb2f84847581295",
+    "files": [
+      "StereoWidener-CC0.txt"
+    ]
+  },
+  {
+    "title": "MIT KEMAR — HRTF data terms",
+    "notice": "Terms from the License field of the bundled SOFA file.\nhttps://sofacoustics.org/data/database/mit/",
+    "files": [
+      "mit_kemar_normal_pinna.sofa.LICENSE.txt"
+    ]
+  },
+  {
+    "title": "SADIE H3 — noncommercial license",
+    "notice": "Terms from the License field of the bundled SOFA file.\nhttps://sofacoustics.org/data/database/sadie/",
+    "files": [
+      "sadie_h3.sofa.LICENSE.txt"
+    ]
+  },
+  {
+    "title": "SADIE H10 — Apache-2.0",
+    "notice": "Terms from the License field of the bundled SOFA file.\nhttps://sofacoustics.org/data/database/sadie/",
+    "files": [
+      "sadie_h10.sofa.LICENSE.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "AndroidX / Media3 / Material — Apache-2.0",
+    "notice": "The Android Open Source Project; Google. Media3 1.9.2, including the adapted FFmpeg audio decoder, AndroidX Media, Room and UI libraries.\nhttps://github.com/androidx/media\nhttps://android.googlesource.com/platform/frameworks/support/\nhttps://github.com/material-components/material-components-android",
+    "files": [
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "EventBus — Apache-2.0",
+    "notice": "https://github.com/greenrobot/EventBus",
+    "files": [
+      "event_bus.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Glide — BSD and additional terms",
+    "notice": "https://github.com/bumptech/glide",
+    "files": [
+      "glide.txt"
+    ]
+  },
+  {
+    "title": "M3U Parser — MIT",
+    "notice": "https://github.com/BjoernPetersen/m3u-parser",
+    "files": [
+      "m3u_parser.txt"
+    ]
+  },
+  {
+    "title": "AutoFitTextView — Apache-2.0",
+    "notice": "https://github.com/grantland/android-autofittextview",
+    "files": [
+      "autofittextview.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Kotlin / kotlinx — Apache-2.0",
+    "notice": "https://github.com/JetBrains/kotlin",
+    "files": [
+      "kotlin.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Gson — Apache-2.0",
+    "notice": "https://github.com/google/gson",
+    "files": [
+      "gson.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Joda-Time — Apache-2.0",
+    "notice": "https://github.com/JodaOrg/joda-time",
+    "files": [
+      "joda.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Reprint — MIT",
+    "notice": "https://github.com/ajalt/reprint",
+    "files": [
+      "reprint.txt"
+    ]
+  },
+  {
+    "title": "RtlViewPager — Apache-2.0",
+    "notice": "https://github.com/duolingo/rtl-viewpager",
+    "files": [
+      "rtl_viewpager.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "PatternLockView — Apache-2.0",
+    "notice": "https://github.com/aritraroy/PatternLockView",
+    "files": [
+      "pattern.txt",
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Lottie — Apache-2.0",
+    "notice": "Lottie Android 6.7.1; Airbnb.\nhttps://github.com/airbnb/lottie-android",
+    "files": [
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "RecyclerView-FastScroller — Apache-2.0",
+    "notice": "RecyclerView-FastScroller; Tibor Kaputa and contributors.\nhttps://github.com/tibbi/RecyclerView-FastScroller",
+    "files": [
+      "Apache-2.0.txt"
+    ]
+  },
+  {
+    "title": "Jaudiotagger — LGPL-2.1-or-later",
+    "notice": "Jaudiotagger 3.0.1; Paul Taylor and contributors.\nhttps://bitbucket.org/ijabz/jaudiotagger",
+    "files": [
+      "Jaudiotagger-NOTICE.txt",
+      "LGPL-2.1.txt"
+    ]
+  },
+  {
+    "title": "Additional Java library notices",
+    "notice": "Notices included in the Android package: ez-vcard, Commons Codec, FastDoubleParser, bigint and AndroidX.\nPreserved from the built dependencies without changes to their text.",
+    "files": [
+      "Runtime-NOTICES.txt"
+    ]
+  }
+]

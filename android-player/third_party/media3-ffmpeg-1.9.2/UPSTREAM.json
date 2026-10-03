@@ -1,0 +1,49 @@
+[
+  {
+    "file": "LICENSE",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/LICENSE",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "3a0b32a74c46bdda3499ec9f39ab4f2a98fc2b239a1c1c1592086d26fdf76159"
+  },
+  {
+    "file": "README.md",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/libraries/decoder_ffmpeg/README.md",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "499be19673e754fde46b0afd232c3ab2fc540e373a7b18c53802d07d78c0fa36"
+  },
+  {
+    "file": "java/androidx/media3/decoder/ffmpeg/FfmpegAudioDecoder.java",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/libraries/decoder_ffmpeg/src/main/java/androidx/media3/decoder/ffmpeg/FfmpegAudioDecoder.java",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "e2211450584682cc75c164fb3e9eb584c51348ab2fd2d63996de77353d44b161",
+    "pre_exstereo_v23_sha256": "869eaf0e2a3d06b54ebeaf050f1ca1fbaa437a512271467e60fdd5cab411363b",
+    "pre_exstereo_v24_sha256": "04f01fdeed2810d6830f7674cffd6bb9204a7f4dcf627d2a49847c2ec040e99b"
+  },
+  {
+    "file": "java/androidx/media3/decoder/ffmpeg/FfmpegAudioRenderer.java",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/libraries/decoder_ffmpeg/src/main/java/androidx/media3/decoder/ffmpeg/FfmpegAudioRenderer.java",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "01952b9a1ff31dd1864f5f95d0844a6b9e450454d8671742ffd2ae87f48d6edc"
+  },
+  {
+    "file": "java/androidx/media3/decoder/ffmpeg/FfmpegDecoderException.java",
+    "source": "https://raw.githubusercontent.com/androidx/media/release/libraries/decoder_ffmpeg/src/main/java/androidx/media3/decoder/ffmpeg/FfmpegDecoderException.java",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "2fb3f20197c8f5e02035ddb92a34523ed19eb8a82e4ba99d9597f7b20a3bf02d"
+  },
+  {
+    "file": "java/androidx/media3/decoder/ffmpeg/FfmpegLibrary.java",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/libraries/decoder_ffmpeg/src/main/java/androidx/media3/decoder/ffmpeg/FfmpegLibrary.java",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "502c864430bf28dd39ddadca3bd599a7d7039fbf5571a069396b7c30dfd31c63",
+    "pre_exstereo_v23_sha256": "07fa238d68ee381401fd58d9b73b42df484efb400e0a48d685a9061085ac4eb8",
+    "pre_exstereo_v24_sha256": "44b210fe411b8230abe58cde6da092878b722203002ed78df6f1035cc5fab463"
+  },
+  {
+    "file": "jni/ffmpeg_jni.cc",
+    "source": "https://raw.githubusercontent.com/androidx/media/1.9.2/libraries/decoder_ffmpeg/src/main/jni/ffmpeg_jni.cc",
+    "retrieval": "Web tool text/plain source with numbered lines; normalized line breaks; see LOCAL_CHANGES.md",
+    "vendored_sha256": "f08dcd5fb6ace9d6d1f7674e9b3bc105bea5a1f778ef0f1506b1750573c389d3",
+    "pre_exstereo_v23_sha256": "d0e63ee176c4c1e78c4affcab59070cf597d4e8256c15d69383cc4a025a34e4a"
+  }
+]

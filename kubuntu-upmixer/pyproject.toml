@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-upmixer"
+version = "0.3.1"
+description = "Offline stem-based stereo widening and 7.1 Opus preparation for Android"
+readme = "README.md"
+authors = [{name = "DysseuX (DysseuX Group)"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "soundfile>=0.12,<1"]
+
+[project.optional-dependencies]
+demucs = ["demucs==4.1.0"]
+
+[project.scripts]
+spatial-upmix = "spatial_upmixer.cli:main"
+spatial-upmix-gui = "spatial_upmixer.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

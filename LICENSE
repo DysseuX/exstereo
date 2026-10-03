@@ -1,0 +1,19 @@
+exstereo and companion applications
+Copyright (c) 2026 DysseuX (DysseuX Group), for original code and modifications.
+
+This repository contains separately licensed programs and third-party data.
+It does not use one license for every file.
+
+android-player: GNU General Public License version 3 (GPL-3.0-only).
+kubuntu-upmixer: GNU General Public License version 2 or later (GPL-2.0-or-later).
+android-hrtf and kubuntu-hrtf original code: PolyForm Noncommercial License 1.0.0.
+Root scripts and original common documentation: GPL-3.0-only.
+
+Required Notice: Copyright (c) 2026 DysseuX (DysseuX Group).
+The Required Notice above accompanies the PolyForm-licensed original HRTF code.
+
+Existing third-party licenses, copyright notices and dataset terms remain in
+force. GPL-covered code has no added restriction on commercial redistribution.
+PolyForm terms do not replace the MIT, Apache, GPL or dataset licenses of
+third-party files. See LICENSING.md, AUTHORS.md, LICENSES/, module LICENSE files,
+third_party/ and application assets/licenses/ for the applicable terms.

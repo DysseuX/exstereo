@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "directions": 729,
+  "reference_samples": 128,
+  "sample_rate": 48000,
+  "output_samples": 2200,
+  "dataset_dtype": "<f8",
+  "dataset_layout": "contiguous",
+  "reference_sha256": "29b6715c604c889b40fef3d889221272e39860e42f75636e72726e990fe4861e",
+  "template_sha256": "f3f6058991e7ebfab403ae5951746b3e9146a794ab1012c1e0f87b44705c3b2f",
+  "template_size": 25697531,
+  "ir_offset": 10834,
+  "ir_byte_size": 25660800,
+  "receiver_offset": 25672159,
+  "receiver_byte_size": 48,
+  "upstream_reference_sha256": "44451d557b8bce68f797f7cf085129e169186d72d884dd1447dd93c6a93160c2",
+  "reference_license": "CC BY 4.0",
+  "reference_doi": "10.5281/zenodo.4160401"
+}

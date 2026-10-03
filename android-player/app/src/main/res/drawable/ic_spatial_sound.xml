@@ -1,0 +1,5 @@
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:pathData="M6,4 L6,8 M6,12 L6,20 M12,4 L12,13 M12,17 L12,20 M18,4 L18,7 M18,11 L18,20 M3.5,8 L8.5,8 L8.5,12 L3.5,12 Z M9.5,13 L14.5,13 L14.5,17 L9.5,17 Z M15.5,7 L20.5,7 L20.5,11 L15.5,11 Z" android:strokeColor="#213B4B" android:strokeWidth="1.6" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="@android:color/transparent" />
+</vector>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group); SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="audio_back" formatted="false">"Назад"</string>
+    <string name="audio_title" formatted="false">"Звук в наушниках"</string>
+    <string name="audio_listening_mode" formatted="false">"Режим прослушивания"</string>
+    <string name="audio_mode_stereo" formatted="false">"Стерео · две колонки"</string>
+    <string name="audio_mode_widen" formatted="false">"Расширение стереобазы"</string>
+    <string name="audio_mode_surround" formatted="false">"Виртуальные колонки · 7.1"</string>
+    <string name="audio_virtual_stereo" formatted="false">"Виртуальные колонки в наушниках"</string>
+    <string name="audio_virtual_stereo_description" formatted="false">"Два отдельных источника L/R вокруг слушателя. Если выключить, останется обычное стерео в наушниках."</string>
+    <string name="audio_renderer" formatted="false">"Пространственный движок"</string>
+    <string name="audio_sofalizer_kemar_selected" formatted="false">"Для sofalizer выбран профиль MIT KEMAR"</string>
+    <string name="audio_renderer_selected">"Выбран движок %1$s"</string>
+    <string name="audio_upmix_title" formatted="false">"Стерео → 7.1"</string>
+    <string name="audio_upmix_accessibility" formatted="false">"Алгоритм преобразования стерео в 7.1"</string>
+    <string name="audio_upmixer_selected">"Выбран %1$s"</string>
+    <string name="audio_upmix_description" formatted="false">"Этот алгоритм применяется к обычной стереомузыке. Готовые файлы 5.1 и 7.1 проходят сразу в пространственный движок."</string>
+    <string name="audio_virtual_speakers" formatted="false">"Виртуальные колонки"</string>
+    <string name="audio_mirror_pair" formatted="false">"Зеркальное перемещение пары"</string>
+    <string name="audio_mirror_pair_accessibility" formatted="false">"Зеркальное перемещение пары колонок"</string>
+    <string name="audio_mirror_description" formatted="false">"При движении левой или правой колонки её пара перемещается зеркально. Высота и расстояние одинаковые; центральная колонка независима."</string>
+    <string name="audio_scene_description" formatted="false">"Вид сверху. Перетаскивайте колонку вокруг слушателя и ближе или дальше от него. Звук меняется автоматически."</string>
+    <string name="audio_speaker" formatted="false">"Виртуальная колонка"</string>
+    <string name="audio_azimuth_accessibility" formatted="false">"Направление колонки по горизонтали"</string>
+    <string name="audio_elevation_accessibility" formatted="false">"Высота колонки"</string>
+    <string name="audio_distance_accessibility" formatted="false">"Расстояние до колонки в метрах"</string>
+    <string name="audio_azimuth" formatted="false">"Направление по горизонтали"</string>
+    <string name="audio_elevation" formatted="false">"Высота: ниже / выше головы"</string>
+    <string name="audio_distance_range" formatted="false">"Расстояние: 0,5–5 м"</string>
+    <string name="audio_distance_description" formatted="false">"Расстояние имитируется уровнем и затуханием высоких частот. Точность направления и высоты зависит от выбранного HRTF."</string>
+    <string name="audio_reset_positions" formatted="false">"Вернуть расположение колонок"</string>
+    <string name="audio_hrtf_collapsed" formatted="false">"Настройка HRTF  ▾"</string>
+    <string name="audio_hrtf_expanded" formatted="false">"Настройка HRTF  ▴"</string>
+    <string name="audio_hrtf_open" formatted="false">"Открыть настройку HRTF"</string>
+    <string name="audio_hrtf_close" formatted="false">"Свернуть настройку HRTF"</string>
+    <string name="audio_hrtf_summary" formatted="false">"Профиль ушей, сила эффекта и ручная калибровка звучания."</string>
+    <string name="audio_head_profile" formatted="false">"Профиль головы и ушей"</string>
+    <string name="audio_hrtf_profile" formatted="false">"Профиль HRTF"</string>
+    <string name="audio_profile_selected">"Выбран профиль «%1$s»"</string>
+    <string name="audio_import_sofa" formatted="false">"Импортировать SOFA с ПК"</string>
+    <string name="audio_no_file_picker" formatted="false">"На устройстве нет приложения для выбора файлов"</string>
+    <string name="audio_import_instructions" formatted="false">"Перенесите созданный на ПК файл .sofa на телефон и выберите его. Профиль сохранится внутри плеера."</string>
+    <string name="audio_compare_profiles" formatted="false">"Сравните профили на одном фрагменте: выбирайте более ясные перед, зад и высоту. При смене профиля возможна короткая пауза."</string>
+    <string name="audio_manual_calibration" formatted="false">"Ручная калибровка"</string>
+    <string name="audio_calibration_description" formatted="false">"Изменения слышны сразу. Эти регуляторы настраивают воспроизведение, а не анатомию ушей в SOFA-профиле."</string>
+    <string name="audio_hrtf_strength" formatted="false">"Сила HRTF"</string>
+    <string name="audio_hrtf_strength_value">"Сила HRTF: %1$d%%"</string>
+    <string name="audio_hrtf_strength_description" formatted="false">"0% — обычное панорамирование, 100% — полный HRTF."</string>
+    <string name="audio_listener_yaw" formatted="false">"Поворот слушателя"</string>
+    <string name="audio_listener_yaw_value">"Поворот слушателя: %1$d°"</string>
+    <string name="audio_listener_pitch" formatted="false">"Наклон головы"</string>
+    <string name="audio_listener_pitch_value">"Наклон головы: %1$d°"</string>
+    <string name="audio_hrtf_balance" formatted="false">"Баланс HRTF"</string>
+    <string name="audio_hrtf_balance_value">"Баланс: %1$s дБ · − влево / + вправо"</string>
+    <string name="audio_hrtf_level" formatted="false">"Уровень HRTF"</string>
+    <string name="audio_hrtf_level_value">"Уровень: %1$s дБ"</string>
+    <string name="audio_reset_calibration" formatted="false">"Сбросить ручную калибровку"</string>
+    <string name="audio_channel_levels" formatted="false">"Уровни каналов"</string>
+    <string name="audio_surround_value">"Окружение: %1$d дБ"</string>
+    <string name="audio_lfe_value">"LFE: %1$d дБ"</string>
+    <string name="audio_lfe_description" formatted="false">"Уровень отдельного басового канала LFE. PAE/PAD и FFmpeg создают его из стерео; готовые 5.1 и 7.1 воспроизводятся без повторного upmix."</string>
+    <string name="audio_scene_seven_accessibility" formatted="false">"Схема семи виртуальных колонок. Направление, высоту и расстояние можно менять ползунками ниже."</string>
+    <string name="audio_scene_two_accessibility" formatted="false">"Схема двух виртуальных колонок L и R. Направление, высоту и расстояние можно менять ползунками ниже."</string>
+    <string name="audio_widening_algorithm" formatted="false">"Алгоритм расширения стереобазы"</string>
+    <string name="audio_widening_description_accessibility" formatted="false">"Описание алгоритма расширения"</string>
+    <string name="audio_width_value">"Ширина: %1$d%%"</string>
+    <string name="audio_width_accessibility" formatted="false">"Ширина стереобазы"</string>
+    <string name="audio_width_description" formatted="false">"100% — исходная ширина. Низкие частоты сохраняют устойчивый центр."</string>
+    <string name="audio_wet_value">"Доля обработки: %1$d%%"</string>
+    <string name="audio_wet_accessibility" formatted="false">"Доля обработки расширения"</string>
+    <string name="audio_wet_description" formatted="false">"0% — исходный звук, 100% — выбранный эффект. Изменения слышны сразу."</string>
+    <string name="audio_label_percent">"%1$s: %2$d%%"</string>
+    <string name="audio_widen_below_crossover" formatted="false">"Расширение ниже раздела"</string>
+    <string name="audio_widen_above_crossover" formatted="false">"Расширение выше раздела"</string>
+    <string name="audio_crossover_value">"Частота раздела: %1$d Гц"</string>
+    <string name="audio_crossover_accessibility" formatted="false">"Частота раздела расширения"</string>
+    <string name="audio_widener_band_description" formatted="false">"Начните с расширения верхней полосы. Нулевая обработка нижней полосы помогает сохранить бас собранным."</string>
+    <string name="audio_transient_protection" formatted="false">"Защита атак"</string>
+    <string name="audio_transient_description" formatted="false">"На резких атаках доля декорреляции уменьшается, чтобы сохранить чёткость ударных."</string>
+    <string name="audio_preserve_amplitude" formatted="false">"Сохранять амплитуду"</string>
+    <string name="audio_crossover_type_description" formatted="false">"Включено — раздел Linkwitz–Riley с сохранением амплитуды. Выключено — Butterworth с сохранением мощности."</string>
+    <string name="audio_low_band_width" formatted="false">"Ширина низкой полосы"</string>
+    <string name="audio_mid_band_width" formatted="false">"Ширина средней полосы"</string>
+    <string name="audio_high_band_width" formatted="false">"Ширина высокой полосы"</string>
+    <string name="audio_low_crossover" formatted="false">"Нижняя частота раздела"</string>
+    <string name="audio_high_crossover" formatted="false">"Верхняя частота раздела"</string>
+    <string name="audio_correlation_guard" formatted="false">"Защита корреляции"</string>
+    <string name="audio_correlation_description" formatted="false">"Автоматически уменьшает расширение при сильной противофазе. Проверяйте звучание в моно: исходную противофазу защита не устраняет."</string>
+    <string name="audio_ambience_width" formatted="false">"Ширина окружения"</string>
+    <string name="audio_ambience_level" formatted="false">"Уровень окружения"</string>
+    <string name="audio_ambience_description" formatted="false">"Направленная часть сохраняется; расширяется оценка рассеянного окружения. В плотном миксе разделение может быть неточным."</string>
+    <string name="audio_side_level" formatted="false">"Уровень синтезированного Side"</string>
+    <string name="audio_side_highpass" formatted="false">"Нижняя граница синтеза Side"</string>
+    <string name="audio_side_description" formatted="false">"Новая боковая составляющая добавляется к исходной. Более высокая нижняя граница сохраняет бас в центре."</string>
+    <string name="audio_shuffler_amount" formatted="false">"Сила Shuffler"</string>
+    <string name="audio_shuffler_frequency" formatted="false">"Частота Shuffler"</string>
+    <string name="audio_micropitch_detune" formatted="false">"Расстройка MicroPitch"</string>
+    <string name="audio_micropitch_delay" formatted="false">"Задержка MicroPitch"</string>
+    <string name="audio_micropitch_description" formatted="false">"Небольшая расстройка и разные задержки создают эффект дабл-трека. Сильная обработка может дать хорусовое звучание и изменить тембр."</string>
+    <string name="audio_algorithm_extrastereo_description" formatted="false">"FFmpeg extrastereo усиливает разницу между каналами во всём диапазоне. Моно остаётся моно."</string>
+    <string name="audio_algorithm_stereowiden_description" formatted="false">"FFmpeg stereowiden сочетает отрицательное перекрёстное смешивание и короткую задержку. Начните с умеренной доли обработки."</string>
+    <string name="audio_algorithm_haas_description" formatted="false">"FFmpeg Haas создаёт ширину короткими задержками центрального сигнала. При 100% обработки исходная боковая составляющая заменяется: используйте умеренную долю."</string>
+    <string name="audio_algorithm_allpass_description" formatted="false">"StereoWidener allpass меняет фазовые отношения с помощью всепропускающих фильтров. Нижняя и верхняя полосы настраиваются отдельно."</string>
+    <string name="audio_algorithm_velvet_description" formatted="false">"StereoWidener velvet noise создаёт различия между каналами разреженными импульсами. Нижняя и верхняя полосы настраиваются отдельно."</string>
+    <string name="audio_algorithm_multiband_description" formatted="false">"Независимая M/S-ширина для низких, средних и высоких частот. 100% в каждой полосе — исходная ширина. Из моно ширину не создаёт."</string>
+    <string name="audio_algorithm_pae_description" formatted="false">"PAE/PAD отделяет направленную часть от окружения и расширяет преимущественно окружение. Это оценка по стереосигналу, а не разделение инструментов."</string>
+    <string name="audio_algorithm_side_description" formatted="false">"Создаёт декоррелированную боковую составляющую из центра, сохраняя исходный Mid и Side. Подходит и для моно; характер пространства будет искусственным."</string>
+    <string name="audio_algorithm_shuffler_description" formatted="false">"Stereo Shuffler меняет частотное соотношение центра и боковой составляющей. Позволяет иначе распределить ширину по диапазону без задержанного эха."</string>
+    <string name="audio_algorithm_micropitch_description" formatted="false">"MicroPitch добавляет слегка расстроенные копии каналов с короткими задержками. Это творческий эффект, который меняет звучание записи."</string>
+    <string name="audio_algorithm_ms_description" formatted="false">"M/S меняет соотношение центра и боковой составляющей, сохраняя нижние частоты. Из моно дополнительную ширину не создаёт."</string>
+    <string name="audio_room_collapsed" formatted="false">"Комната и отражения  ▾"</string>
+    <string name="audio_room_expanded" formatted="false">"Комната и отражения  ▴"</string>
+    <string name="audio_room_open" formatted="false">"Открыть настройки комнаты"</string>
+    <string name="audio_room_close" formatted="false">"Свернуть настройки комнаты"</string>
+    <string name="audio_room_summary" formatted="false">"Отдельный эффект пространства для всех режимов прослушивания."</string>
+    <string name="audio_room_enable" formatted="false">"Включить комнату"</string>
+    <string name="audio_room_mix" formatted="false">"Доля комнаты"</string>
+    <string name="audio_room_minimum_size" formatted="false">"Минимальный размер комнаты"</string>
+    <string name="audio_room_walls_description" formatted="false">"Стены автоматически отодвигаются, если колонки находятся дальше."</string>
+    <string name="audio_room_damping" formatted="false">"Поглощение высоких частот"</string>
+    <string name="audio_room_decay" formatted="false">"Время затухания"</string>
+    <string name="audio_room_description" formatted="false">"Приближённая модель ранних отражений и реверберации, а не измеренный BRIR. Прямой звук сохраняет выбранный HRTF, если включена виртуализация."</string>
+    <string name="audio_label_value">"%1$s: %2$s"</string>
+    <string name="audio_percent_value">"%1$d%%"</string>
+    <string name="audio_signed_percent_value">"%1$+d%%"</string>
+    <string name="audio_hz_value">"%1$d Гц"</string>
+    <string name="audio_db_value">"%1$s дБ"</string>
+    <string name="audio_cents_value">"%1$s цента"</string>
+    <string name="audio_ms_value">"%1$s мс"</string>
+    <string name="audio_meters_value">"%1$s м"</string>
+    <string name="audio_seconds_value">"%1$s с"</string>
+    <string name="audio_openal_profile" formatted="false">"OpenAL Soft — встроенный HRTF"</string>
+    <string name="audio_renderer_openal_description" formatted="false">"Используется встроенный HRTF OpenAL Soft. Импортированный SOFA сохранён для других движков. Колонки меняют положение сразу."</string>
+    <string name="audio_renderer_sofalizer_description" formatted="false">"Используется выбранный SOFA. Расположение колонок обновляется автоматически; подготовка новых фильтров может занять короткое время."</string>
+    <string name="audio_renderer_steam_description" formatted="false">"Steam Audio использует выбранный HRTF. Колонки меняют положение сразу."</string>
+    <string name="audio_validation_failed" formatted="false">"Не удалось проверить настройки звука"</string>
+    <string name="audio_validating_configuration">"Проверка %1$s и профиля…"</string>
+    <string name="audio_changes_not_applied">"Изменения звука не применены. %1$s"</string>
+    <string name="audio_profile_load_failed" formatted="false">"Не удалось загрузить профиль"</string>
+    <string name="audio_settings_apply_failed" formatted="false">"Не удалось применить настройки звука"</string>
+    <string name="audio_copying_sofa" formatted="false">"Копирование и проверка SOFA…"</string>
+    <string name="audio_profile_saved_selected">"Профиль «%1$s» сохранён и выбран"</string>
+    <string name="audio_active_profile_unchanged">"Активный профиль не изменён. %1$s"</string>
+    <string name="audio_sofa_import_failed" formatted="false">"Не удалось импортировать SOFA"</string>
+    <string name="audio_profile_unchanged" formatted="false">"Профиль не изменён"</string>
+    <string name="audio_settings_deferred" formatted="false">"Настройки сохранены. Они применятся при следующем запуске трека."</string>
+    <string name="audio_left_speaker" formatted="false">"L · левая"</string>
+    <string name="audio_right_speaker" formatted="false">"R · правая"</string>
+    <string name="audio_speaker_position">"%1$s: %2$d° · высота %3$d° · %4$s м"</string>
+    <string name="audio_degrees_accessibility">"%1$d градусов"</string>
+    <string name="audio_meters_accessibility">"%1$s метра"</string>
+    <string name="audio_scene_you" formatted="false">"ВЫ"</string>
+    <string name="audio_scene_front" formatted="false">"ВПЕРЕДИ"</string>
+    <string name="audio_renderer_steam" formatted="false">"Steam Audio"</string>
+    <string name="audio_renderer_openal" formatted="false">"OpenAL Soft"</string>
+    <string name="audio_renderer_sofalizer" formatted="false">"FFmpeg · sofalizer"</string>
+    <string name="audio_upmixer_freesurround" formatted="false">"FreeSurround"</string>
+    <string name="audio_upmixer_pae" formatted="false">"PAE/PAD"</string>
+    <string name="audio_upmixer_ffmpeg" formatted="false">"FFmpeg · surround"</string>
+    <string name="audio_algorithm_ms" formatted="false">"M/S · защита низких частот"</string>
+    <string name="audio_algorithm_extrastereo" formatted="false">"FFmpeg · extrastereo"</string>
+    <string name="audio_algorithm_stereowiden" formatted="false">"FFmpeg · stereowiden"</string>
+    <string name="audio_algorithm_haas" formatted="false">"FFmpeg · Haas"</string>
+    <string name="audio_algorithm_allpass" formatted="false">"StereoWidener · allpass"</string>
+    <string name="audio_algorithm_velvet" formatted="false">"StereoWidener · velvet noise"</string>
+    <string name="audio_algorithm_multiband" formatted="false">"Многополосный M/S"</string>
+    <string name="audio_algorithm_pae" formatted="false">"PAE/PAD · окружение"</string>
+    <string name="audio_algorithm_side" formatted="false">"Синтез Side из Mid"</string>
+    <string name="audio_algorithm_shuffler" formatted="false">"Stereo Shuffler"</string>
+    <string name="audio_algorithm_micropitch" formatted="false">"MicroPitch"</string>
+    <string name="audio_speaker_fl" formatted="false">"FL"</string>
+    <string name="audio_speaker_fr" formatted="false">"FR"</string>
+    <string name="audio_speaker_c" formatted="false">"C"</string>
+    <string name="audio_speaker_bl" formatted="false">"BL"</string>
+    <string name="audio_speaker_br" formatted="false">"BR"</string>
+    <string name="audio_speaker_sl" formatted="false">"SL"</string>
+    <string name="audio_speaker_sr" formatted="false">"SR"</string>
+    <string name="audio_speaker_l" formatted="false">"L"</string>
+    <string name="audio_speaker_r" formatted="false">"R"</string>
+    <string name="audio_sofalizer_needs_sofa" formatted="false">"Для sofalizer нужен профиль SOFA"</string>
+    <string name="audio_profile_default" formatted="false">"Steam Audio — стандартный"</string>
+    <string name="audio_profile_kemar" formatted="false">"MIT KEMAR"</string>
+    <string name="audio_profile_h3" formatted="false">"SADIE — H3"</string>
+    <string name="audio_profile_h10" formatted="false">"SADIE — H10"</string>
+    <string name="audio_my_profile" formatted="false">"Мой профиль"</string>
+    <string name="audio_sofa_too_large" formatted="false">"Файл SOFA больше 128 МиБ"</string>
+    <string name="audio_sofa_open_failed" formatted="false">"Не удалось открыть файл SOFA"</string>
+    <string name="audio_profile_directory_failed" formatted="false">"Не удалось создать папку профилей"</string>
+    <string name="audio_sofa_size_limit" formatted="false">"Файл SOFA больше допустимого размера (128 МиБ)"</string>
+    <string name="audio_sofa_empty" formatted="false">"Выбранный файл пуст"</string>
+    <string name="audio_sofa_invalid_container" formatted="false">"Это не файл SOFA (NetCDF/HDF5). Выберите файл с расширением .sofa."</string>
+    <string name="audio_sofa_load_failed" formatted="false">"Не удалось загрузить профиль SOFA"</string>
+    <string name="audio_sofa_incompatible" formatted="false">"Steam Audio не смог открыть SOFA. Нужен совместимый SimpleFreeFieldHRIR с двумя ушами и Data.Delay = 0."</string>
+    <string name="audio_sofa_save_failed" formatted="false">"Не удалось сохранить профиль SOFA"</string>
+    <string name="audio_profile_description_save_failed" formatted="false">"Не удалось сохранить описание профиля"</string>
+    <string name="audio_import_cancelled" formatted="false">"Импорт отменён"</string>
+    <string name="audio_sofa_missing" formatted="false">"Профиль SOFA отсутствует. Импортируйте его ещё раз."</string>
+    <string name="audio_hrtf_save_failed" formatted="false">"Не удалось сохранить HRTF"</string>
+</resources>

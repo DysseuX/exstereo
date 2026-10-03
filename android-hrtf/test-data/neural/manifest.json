@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "purpose": "non-personal synthetic inference parity fixtures",
+  "encoder_sha256": "fc0d0aa370a527b835aeef51a127b9f33a530a17998a69f79070b40531a89e1c",
+  "decoder_sha256": "9aab2edbecb5dd234f57d332203942cd11e1d62734506aeb2035b6cda43b2a94",
+  "embedding_size": 64,
+  "encoder_atol": 0.0002,
+  "decoder_atol_db": 0.0005,
+  "rtol": 2e-05,
+  "cases": [
+    {
+      "name": "synthetic_0",
+      "contour_png": "contour_0.png",
+      "encoder_input": {
+        "filename": "encoder_input_0.f32",
+        "bytes": 262144,
+        "sha256": "af34fe807a040b68a10a1c343d954141c1e6ec96d1298c8e91d0df4670da51ef",
+        "shape": [
+          1,
+          1,
+          256,
+          256
+        ],
+        "dtype": "float32",
+        "byte_order": "little"
+      },
+      "encoder_expected": {
+        "filename": "encoder_expected_0.f32",
+        "bytes": 256,
+        "sha256": "8ceb05e919711c2f8d7211fe21ad1493da5c1b7f6fecc1fe9785878f4bc7bef8",
+        "shape": [
+          1,
+          64
+        ],
+        "dtype": "float32",
+        "byte_order": "little"
+      },
+      "decoder_cases": [
+        {
+          "right": false,
+          "positions": [
+            [
+              0.0,
+              -40.0,
+              1.0
+            ],
+            [
+              180.0,
+              90.0,
+              1.0
+            ],
+            [
+              90.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "input": {
+            "filename": "decoder_0_left_features.f32",
+            "bytes": 792,
+            "sha256": "c4eac7dddd2f29bea4203ba90801019a6c87a42c113fc4efcd64bbbe08cc09fa",
+            "shape": [
+              3,
+              66
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          },
+          "expected": {
+            "filename": "decoder_0_left_expected.f32",
+            "bytes": 3084,
+            "sha256": "73d18deba5eeedfa72f3b4bf5396ad79ea024dbcfc519fe2190e9c153a4074d1",
+            "shape": [
+              3,
+              257
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          }
+        },
+        {
+          "right": true,
+          "positions": [
+            [
+              0.0,
+              -40.0,
+              1.0
+            ],
+            [
+              180.0,
+              90.0,
+              1.0
+            ],
+            [
+              90.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "input": {
+            "filename": "decoder_0_right_features.f32",
+            "bytes": 792,
+            "sha256": "c4eac7dddd2f29bea4203ba90801019a6c87a42c113fc4efcd64bbbe08cc09fa",
+            "shape": [
+              3,
+              66
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          },
+          "expected": {
+            "filename": "decoder_0_right_expected.f32",
+            "bytes": 3084,
+            "sha256": "73d18deba5eeedfa72f3b4bf5396ad79ea024dbcfc519fe2190e9c153a4074d1",
+            "shape": [
+              3,
+              257
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          }
+        }
+      ]
+    },
+    {
+      "name": "synthetic_1",
+      "contour_png": "contour_1.png",
+      "encoder_input": {
+        "filename": "encoder_input_1.f32",
+        "bytes": 262144,
+        "sha256": "426e8096403f3e005b482531dfbfebbd89cd07c2bc4631643c2bac1c1a70f4eb",
+        "shape": [
+          1,
+          1,
+          256,
+          256
+        ],
+        "dtype": "float32",
+        "byte_order": "little"
+      },
+      "encoder_expected": {
+        "filename": "encoder_expected_1.f32",
+        "bytes": 256,
+        "sha256": "5f4fa3ded012f0707ab69bff016c7853afad1996b1a283d3c676b981f323c7ff",
+        "shape": [
+          1,
+          64
+        ],
+        "dtype": "float32",
+        "byte_order": "little"
+      },
+      "decoder_cases": [
+        {
+          "right": false,
+          "positions": [
+            [
+              0.0,
+              -40.0,
+              1.0
+            ],
+            [
+              180.0,
+              90.0,
+              1.0
+            ],
+            [
+              90.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "input": {
+            "filename": "decoder_1_left_features.f32",
+            "bytes": 792,
+            "sha256": "d719ce6bc6a70a19a7992702f5c2ce1ff896c562a7c21ab2d4ae09e83bb49630",
+            "shape": [
+              3,
+              66
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          },
+          "expected": {
+            "filename": "decoder_1_left_expected.f32",
+            "bytes": 3084,
+            "sha256": "9113dfee554da034375bdd5edc126198ad6360035b745f207c19aa19e0e6cb6a",
+            "shape": [
+              3,
+              257
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          }
+        },
+        {
+          "right": true,
+          "positions": [
+            [
+              0.0,
+              -40.0,
+              1.0
+            ],
+            [
+              180.0,
+              90.0,
+              1.0
+            ],
+            [
+              90.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "input": {
+            "filename": "decoder_1_right_features.f32",
+            "bytes": 792,
+            "sha256": "d719ce6bc6a70a19a7992702f5c2ce1ff896c562a7c21ab2d4ae09e83bb49630",
+            "shape": [
+              3,
+              66
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          },
+          "expected": {
+            "filename": "decoder_1_right_expected.f32",
+            "bytes": 3084,
+            "sha256": "9113dfee554da034375bdd5edc126198ad6360035b745f207c19aa19e0e6cb6a",
+            "shape": [
+              3,
+              257
+            ],
+            "dtype": "float32",
+            "byte_order": "little"
+          }
+        }
+      ]
+    }
+  ]
+}

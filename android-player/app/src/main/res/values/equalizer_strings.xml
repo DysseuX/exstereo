@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="equalizer_flat">Flat · 0 dB</string>
+    <string name="equalizer_reset_flat">Reset to Flat</string>
+    <string name="equalizer_30_title">Equalizer · 30 bands</string>
+    <string name="equalizer_30_details">25 Hz–20 kHz · −12 to +12 dB. Works in every sound mode. Changes are applied immediately. Boosts automatically reserve volume headroom. Bands above the track’s Nyquist limit are bypassed.</string>
+    <string name="equalizer_legacy_pending">The old device EQ curve could not be read yet. It is kept as a backup; the new EQ is ready to use. Choosing a preset or moving a band saves a new 30-band curve.</string>
+    <string name="equalizer_bass">Bass</string>
+    <string name="equalizer_voice">Voice</string>
+    <string name="equalizer_soft_highs">Softer highs</string>
+    <string name="equalizer_gain">%1$s dB</string>
+    <string name="equalizer_hz">%1$s Hz</string>
+    <string name="equalizer_khz">%1$s kHz</string>
+</resources>

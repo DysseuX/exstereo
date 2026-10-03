@@ -1,0 +1,40 @@
+<!-- Modifications Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <!-- A framework PopupMenu uses android:* attributes, not Material toolbar colors. -->
+    <style name="SpatialQueueDialogTheme" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#213B4B</item>
+        <item name="android:textColorSecondary">#486171</item>
+        <item name="android:colorAccent">#2F6384</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SpatialPopupMenuTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:textColor">#213B4B</item>
+        <item name="android:textColorPrimary">#213B4B</item>
+        <item name="android:textColorSecondary">#486171</item>
+        <item name="android:itemTextAppearance">@style/SpatialPopupMenuText</item>
+        <item name="android:popupMenuStyle">@style/SpatialPopupMenuWidget</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="SpatialPopupMenuText" parent="android:style/TextAppearance.Material.Menu">
+        <item name="android:textColor">#213B4B</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SpatialPopupMenuWidget" parent="android:style/Widget.Material.Light.PopupMenu">
+        <item name="android:popupBackground">#F8FBFD</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

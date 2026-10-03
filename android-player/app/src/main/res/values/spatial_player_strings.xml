@@ -1,0 +1,33 @@
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group)
+     SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="spatial_player_diagnostics">About and diagnostics</string>
+    <string name="spatial_player_title" translatable="false">exstereo</string>
+    <string name="spatial_player_tab_queue">Queue</string>
+    <string name="spatial_player_tab_player">Player</string>
+    <string name="spatial_player_tab_folders">Folders</string>
+    <string name="spatial_player_sound">Sound</string>
+    <string name="spatial_player_library">Library</string>
+    <string name="spatial_player_rescan">Refresh music</string>
+    <string name="spatial_player_permission">Allow music access</string>
+    <string name="spatial_player_permission_denied">Audio file access is required to list folders. Allow it with the button below or open the app settings.</string>
+    <string name="spatial_player_empty_title">Choose music</string>
+    <string name="spatial_player_empty_hint">Swipe left to open folders. Swipe right to see the queue.</string>
+    <string name="spatial_player_open_folders">Open folders</string>
+    <string name="spatial_player_scanning">Looking for music on the device…</string>
+    <string name="spatial_player_no_folders">No music found yet. Copy FLAC, MP3 or Opus files to the phone and tap “Refresh music”.</string>
+    <string name="spatial_player_no_queue">The queue is empty. Open a folder on the right or choose a playlist in the library.</string>
+    <string name="spatial_player_folder_hint">Choose a folder, then a track to play.</string>
+    <string name="spatial_player_back_folders">All folders</string>
+    <string name="spatial_player_play_folder">Play folder</string>
+    <string name="spatial_player_tracks_count">Tracks: %1$d</string>
+    <string name="spatial_player_queue_count">In queue: %1$d</string>
+    <string name="spatial_player_play">Play</string>
+    <string name="spatial_player_pause">Pause</string>
+    <string name="spatial_player_previous">Previous track</string>
+    <string name="spatial_player_next">Next track</string>
+    <string name="spatial_player_seek">Playback position</string>
+    <string name="spatial_player_artwork">Album artwork</string>
+    <string name="spatial_player_error">Could not play the file: %1$s</string>
+    <string name="spatial_player_load_error">Could not read the music library. Check the permission and refresh the list.</string>
+</resources>

@@ -1,0 +1,47 @@
+HRTF по фото — third-party attribution
+
+ITSADIVE Hybrid Structural Model
+Copyright (c) 2021 Riccardo Miccini, Simone Spagnol
+License: MIT; full text: ITSADIVE-MIT.txt.
+Source: https://github.com/miccio-dk/itsadive_hybrid_structural_model
+Pinned commit: e43fbd5c50c1b15e6f1051b72d1f562ed736b8e8
+The Android ONNX files are inference-only conversions of the published
+vae_incept_edges, dnn_edge_fullgrid and cvae_dense_fullgrid checkpoints.
+Training callbacks, optimizer state, random latent sampling and the unused
+image decoder are not part of the mobile inference pipeline.
+Original work: Riccardo Miccini and Simone Spagnol (2021),
+A hybrid approach to structural modeling of individualized HRTFs.
+
+The Viking HRTF dataset v2 — reference head and torso responses
+Authors: Simone Spagnol, Riccardo Miccini and Rúnar Unnthórsson (2020).
+Source and citation: https://doi.org/10.5281/zenodo.4160401
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+Full legal code: CC-BY-4.0.txt.
+Additional requested citation: Simone Spagnol, Kristján Bjarki Purkhús,
+Sverrir Karl Björnsson and Rúnar Unnthórsson (2019), The Viking HRTF dataset,
+Proceedings of the 16th Sound & Music Computing Conference, pp. 55–60.
+
+The source is the pinna-less subject Z SOFA distributed with the pinned
+ITSADIVE repository. The Android reference selects 729 valid directions
+on the 10-degree elevation grid and stores them in a compact binary file.
+Output profiles modify these reference responses using photo-derived
+ear-filter estimates, minimum-phase FIR synthesis, analytical head-size
+interaural delays and one common normalization gain. This application and
+its output are adaptations, not the original measured VIKING dataset.
+The authors of the source research do not endorse this application.
+The original license and attribution apply to the included VIKING material.
+
+ONNX Runtime 1.24.3
+Copyright (c) Microsoft Corporation
+License: MIT; full text: ONNX-Runtime-MIT.txt.
+Source: https://github.com/microsoft/onnxruntime/tree/v1.24.3
+Android artifact: com.microsoft.onnxruntime:onnxruntime-android:1.24.3
+The upstream third-party notices are retained without modification in
+ONNX-Runtime-ThirdPartyNotices.txt. That upstream catalogue covers multiple
+platforms and optional backends; inclusion in the catalogue does not mean
+every component is active in this Android CPU build.
+
+The original photographs and personal head measurements stay on the device.
+An exported SOFA is an experimental estimate, not an acoustic measurement
+of the listener, and does not guarantee more accurate localization.

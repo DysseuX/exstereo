@@ -1,0 +1,207 @@
+{
+  "created_utc": "2026-10-02T17:10:22.080373+00:00",
+  "elapsed_seconds": 4.099724024999887,
+  "models": {
+    "schema_version": 1,
+    "format": "onnx",
+    "precision": "float32",
+    "opset": 17,
+    "embedding_size": 64,
+    "encoder": {
+      "filename": "ear_encoder.onnx",
+      "bytes": 15065266,
+      "sha256": "fc0d0aa370a527b835aeef51a127b9f33a530a17998a69f79070b40531a89e1c",
+      "input": "contour",
+      "output": "embedding",
+      "input_shape": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "output_shape": [
+        1,
+        64
+      ]
+    },
+    "decoder": {
+      "filename": "prtf_decoder.onnx",
+      "bytes": 951169,
+      "sha256": "9aab2edbecb5dd234f57d332203942cd11e1d62734506aeb2035b6cda43b2a94",
+      "input": "features",
+      "output": "prtf_db",
+      "input_shape": [
+        "batch",
+        66
+      ],
+      "output_shape": [
+        "batch",
+        257
+      ]
+    },
+    "source_checkpoint_bytes": 75922584,
+    "exported_bytes": 16016435,
+    "source": {
+      "repository": "miccio-dk/itsadive_hybrid_structural_model",
+      "commit": "e43fbd5c50c1b15e6f1051b72d1f562ed736b8e8",
+      "checkpoints": [
+        {
+          "filename": "vae_incept_edges.ckpt",
+          "bytes": 71702728,
+          "sha256": "9cefb42ee0ab97389b55d172e96b6415cc368ec6b6f3ecdae4b73d5bf333072a"
+        },
+        {
+          "filename": "dnn_edge_fullgrid.ckpt",
+          "bytes": 1525894,
+          "sha256": "b3c6582eeaeb05766dde46ec197025cc29b91527003857582e2a8ab4d25e2a82"
+        },
+        {
+          "filename": "cvae_dense_fullgrid.ckpt",
+          "bytes": 2693962,
+          "sha256": "c87257e2208834f46e8876a480eee74bd250f5343cf64bb52fd196eab2af5ccf"
+        }
+      ],
+      "license": "MIT"
+    },
+    "input_convention": {
+      "image": "calibrated 256x256 white-on-black contour; grayscale 0..1; NCHW",
+      "features": "embedding then elevation_degrees then median_azimuth_degrees",
+      "azimuth": "mirror for right ear, wrap to [0,360), then -180 if 90<azimuth<270 else 0",
+      "output": "257 magnitude dB bins DC..Nyquist; pinna proxy, not final HRIR"
+    },
+    "excluded_from_apk": [
+      "training checkpoints",
+      "optimizers",
+      "VAE image decoder",
+      "CVAE encoder",
+      "stochastic latent sampling",
+      "PyTorch",
+      "Python",
+      "training frameworks"
+    ],
+    "export_tools": {
+      "torch": "2.14.1+cpu",
+      "onnx": "1.23.1",
+      "onnxruntime": "1.30.0",
+      "numpy": "2.5.3",
+      "Pillow": "12.3.0"
+    },
+    "exporter_sha256": "129a191d8a08929daf991cf5fa1f9d1b3b56aaec6f1387e5cb65adf306333df4",
+    "operators": {
+      "ear_encoder.onnx": [
+        "Add",
+        "AveragePool",
+        "Constant",
+        "Conv",
+        "Gemm",
+        "MaxPool",
+        "Relu",
+        "Reshape"
+      ],
+      "prtf_decoder.onnx": [
+        "Concat",
+        "Constant",
+        "Gemm",
+        "LeakyRelu",
+        "Relu",
+        "Slice"
+      ]
+    },
+    "parity": {
+      "status": "passed",
+      "provider": "CPUExecutionProvider",
+      "threads": 1,
+      "encoder_atol": 0.0002,
+      "decoder_atol_db": 0.0005,
+      "rtol": 2e-05,
+      "cases": [
+        {
+          "case": 0,
+          "right": false,
+          "batch": 1,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 6.866455078125e-05
+        },
+        {
+          "case": 0,
+          "right": false,
+          "batch": 3,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 8.392333984375e-05
+        },
+        {
+          "case": 0,
+          "right": false,
+          "batch": 64,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 7.62939453125e-05
+        },
+        {
+          "case": 0,
+          "right": true,
+          "batch": 1,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 6.866455078125e-05
+        },
+        {
+          "case": 0,
+          "right": true,
+          "batch": 3,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 8.392333984375e-05
+        },
+        {
+          "case": 0,
+          "right": true,
+          "batch": 64,
+          "encoder_max_abs_error": 9.298324584960938e-06,
+          "prtf_max_abs_error_db": 7.62939453125e-05
+        },
+        {
+          "case": 1,
+          "right": false,
+          "batch": 1,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 6.103515625e-05
+        },
+        {
+          "case": 1,
+          "right": false,
+          "batch": 3,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 6.866455078125e-05
+        },
+        {
+          "case": 1,
+          "right": false,
+          "batch": 64,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 7.62939453125e-05
+        },
+        {
+          "case": 1,
+          "right": true,
+          "batch": 1,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 6.103515625e-05
+        },
+        {
+          "case": 1,
+          "right": true,
+          "batch": 3,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 6.866455078125e-05
+        },
+        {
+          "case": 1,
+          "right": true,
+          "batch": 64,
+          "encoder_max_abs_error": 9.179115295410156e-06,
+          "prtf_max_abs_error_db": 7.62939453125e-05
+        }
+      ],
+      "source": "real pinned PyTorch weights and public Predictor.predict"
+    }
+  },
+  "fixtures": "android-hrtf/test-data/neural"
+}

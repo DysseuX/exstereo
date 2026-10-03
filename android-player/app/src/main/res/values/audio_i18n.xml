@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2026 DysseuX (DysseuX Group); SPDX-License-Identifier: GPL-3.0-only -->
+<resources>
+    <string name="audio_back" formatted="false">"Back"</string>
+    <string name="audio_title" formatted="false">"Headphone sound"</string>
+    <string name="audio_listening_mode" formatted="false">"Listening mode"</string>
+    <string name="audio_mode_stereo" formatted="false">"Stereo · two speakers"</string>
+    <string name="audio_mode_widen" formatted="false">"Stereo widening"</string>
+    <string name="audio_mode_surround" formatted="false">"Virtual speakers · 7.1"</string>
+    <string name="audio_virtual_stereo" formatted="false">"Virtual speakers in headphones"</string>
+    <string name="audio_virtual_stereo_description" formatted="false">"Two separate L/R sources around the listener. Turn this off for ordinary headphone stereo."</string>
+    <string name="audio_renderer" formatted="false">"Spatial renderer"</string>
+    <string name="audio_sofalizer_kemar_selected" formatted="false">"MIT KEMAR selected for sofalizer"</string>
+    <string name="audio_renderer_selected">"Renderer selected: %1$s"</string>
+    <string name="audio_upmix_title" formatted="false">"Stereo → 7.1"</string>
+    <string name="audio_upmix_accessibility" formatted="false">"Stereo to 7.1 upmix algorithm"</string>
+    <string name="audio_upmixer_selected">"Selected: %1$s"</string>
+    <string name="audio_upmix_description" formatted="false">"This algorithm processes ordinary stereo music. Existing 5.1 and 7.1 files go straight to the spatial renderer."</string>
+    <string name="audio_virtual_speakers" formatted="false">"Virtual speakers"</string>
+    <string name="audio_mirror_pair" formatted="false">"Move speaker pairs symmetrically"</string>
+    <string name="audio_mirror_pair_accessibility" formatted="false">"Mirror movement of a speaker pair"</string>
+    <string name="audio_mirror_description" formatted="false">"Moving a left or right speaker mirrors its partner. Their elevation and distance stay equal; the center speaker moves independently."</string>
+    <string name="audio_scene_description" formatted="false">"Top view. Drag a speaker around the listener and closer or farther away. Sound updates automatically."</string>
+    <string name="audio_speaker" formatted="false">"Virtual speaker"</string>
+    <string name="audio_azimuth_accessibility" formatted="false">"Horizontal speaker direction"</string>
+    <string name="audio_elevation_accessibility" formatted="false">"Speaker elevation"</string>
+    <string name="audio_distance_accessibility" formatted="false">"Speaker distance in meters"</string>
+    <string name="audio_azimuth" formatted="false">"Horizontal direction"</string>
+    <string name="audio_elevation" formatted="false">"Elevation: below / above your head"</string>
+    <string name="audio_distance_range" formatted="false">"Distance: 0.5–5 m"</string>
+    <string name="audio_distance_description" formatted="false">"Distance is simulated through level and high-frequency attenuation. Direction and elevation accuracy depend on the selected HRTF."</string>
+    <string name="audio_reset_positions" formatted="false">"Reset speaker positions"</string>
+    <string name="audio_hrtf_collapsed" formatted="false">"HRTF settings  ▾"</string>
+    <string name="audio_hrtf_expanded" formatted="false">"HRTF settings  ▴"</string>
+    <string name="audio_hrtf_open" formatted="false">"Open HRTF settings"</string>
+    <string name="audio_hrtf_close" formatted="false">"Collapse HRTF settings"</string>
+    <string name="audio_hrtf_summary" formatted="false">"Ear profile, effect strength and manual sound calibration."</string>
+    <string name="audio_head_profile" formatted="false">"Head and ear profile"</string>
+    <string name="audio_hrtf_profile" formatted="false">"HRTF profile"</string>
+    <string name="audio_profile_selected">"Profile selected: “%1$s”"</string>
+    <string name="audio_import_sofa" formatted="false">"Import SOFA from PC"</string>
+    <string name="audio_no_file_picker" formatted="false">"No file picker is available on this device"</string>
+    <string name="audio_import_instructions" formatted="false">"Transfer the .sofa file created on your PC to your phone and select it. The profile will be stored in the player."</string>
+    <string name="audio_compare_profiles" formatted="false">"Compare profiles using the same passage. Choose the clearest front, rear and elevation cues. Switching profiles may briefly pause playback."</string>
+    <string name="audio_manual_calibration" formatted="false">"Manual calibration"</string>
+    <string name="audio_calibration_description" formatted="false">"Changes are audible immediately. These controls adjust playback, not the ear anatomy stored in the SOFA profile."</string>
+    <string name="audio_hrtf_strength" formatted="false">"HRTF strength"</string>
+    <string name="audio_hrtf_strength_value">"HRTF strength: %1$d%%"</string>
+    <string name="audio_hrtf_strength_description" formatted="false">"0% is ordinary panning; 100% is full HRTF."</string>
+    <string name="audio_listener_yaw" formatted="false">"Listener rotation"</string>
+    <string name="audio_listener_yaw_value">"Listener rotation: %1$d°"</string>
+    <string name="audio_listener_pitch" formatted="false">"Head tilt"</string>
+    <string name="audio_listener_pitch_value">"Head tilt: %1$d°"</string>
+    <string name="audio_hrtf_balance" formatted="false">"HRTF balance"</string>
+    <string name="audio_hrtf_balance_value">"Balance: %1$s dB · − left / + right"</string>
+    <string name="audio_hrtf_level" formatted="false">"HRTF level"</string>
+    <string name="audio_hrtf_level_value">"Level: %1$s dB"</string>
+    <string name="audio_reset_calibration" formatted="false">"Reset manual calibration"</string>
+    <string name="audio_channel_levels" formatted="false">"Channel levels"</string>
+    <string name="audio_surround_value">"Surround: %1$d dB"</string>
+    <string name="audio_lfe_value">"LFE: %1$d dB"</string>
+    <string name="audio_lfe_description" formatted="false">"Level of the separate LFE bass channel. PAE/PAD and FFmpeg generate it from stereo; existing 5.1 and 7.1 play without another upmix."</string>
+    <string name="audio_scene_seven_accessibility" formatted="false">"Diagram of seven virtual speakers. Use the sliders below to change direction, elevation and distance."</string>
+    <string name="audio_scene_two_accessibility" formatted="false">"Diagram of two virtual speakers, L and R. Use the sliders below to change direction, elevation and distance."</string>
+    <string name="audio_widening_algorithm" formatted="false">"Stereo widening algorithm"</string>
+    <string name="audio_widening_description_accessibility" formatted="false">"Widening algorithm description"</string>
+    <string name="audio_width_value">"Width: %1$d%%"</string>
+    <string name="audio_width_accessibility" formatted="false">"Stereo width"</string>
+    <string name="audio_width_description" formatted="false">"100% is the original width. Low frequencies retain a stable center."</string>
+    <string name="audio_wet_value">"Effect mix: %1$d%%"</string>
+    <string name="audio_wet_accessibility" formatted="false">"Widening effect mix"</string>
+    <string name="audio_wet_description" formatted="false">"0% is the original sound; 100% is the selected effect. Changes are audible immediately."</string>
+    <string name="audio_label_percent">"%1$s: %2$d%%"</string>
+    <string name="audio_widen_below_crossover" formatted="false">"Widening below crossover"</string>
+    <string name="audio_widen_above_crossover" formatted="false">"Widening above crossover"</string>
+    <string name="audio_crossover_value">"Crossover: %1$d Hz"</string>
+    <string name="audio_crossover_accessibility" formatted="false">"Widening crossover frequency"</string>
+    <string name="audio_widener_band_description" formatted="false">"Start by widening the upper band. Leaving the lower band unprocessed helps keep bass focused."</string>
+    <string name="audio_transient_protection" formatted="false">"Transient protection"</string>
+    <string name="audio_transient_description" formatted="false">"Reduces decorrelation during sharp attacks to preserve drum definition."</string>
+    <string name="audio_preserve_amplitude" formatted="false">"Preserve amplitude"</string>
+    <string name="audio_crossover_type_description" formatted="false">"On: amplitude-preserving Linkwitz–Riley crossover. Off: power-preserving Butterworth crossover."</string>
+    <string name="audio_low_band_width" formatted="false">"Low-band width"</string>
+    <string name="audio_mid_band_width" formatted="false">"Mid-band width"</string>
+    <string name="audio_high_band_width" formatted="false">"High-band width"</string>
+    <string name="audio_low_crossover" formatted="false">"Lower crossover frequency"</string>
+    <string name="audio_high_crossover" formatted="false">"Upper crossover frequency"</string>
+    <string name="audio_correlation_guard" formatted="false">"Correlation guard"</string>
+    <string name="audio_correlation_description" formatted="false">"Automatically reduces widening when channels become strongly out of phase. Check the sound in mono: the guard cannot fix phase cancellation already in the source."</string>
+    <string name="audio_ambience_width" formatted="false">"Ambience width"</string>
+    <string name="audio_ambience_level" formatted="false">"Ambience level"</string>
+    <string name="audio_ambience_description" formatted="false">"Preserves the directional part while widening the estimated diffuse ambience. Separation may be inaccurate in dense mixes."</string>
+    <string name="audio_side_level" formatted="false">"Synthesized Side level"</string>
+    <string name="audio_side_highpass" formatted="false">"Side synthesis lower cutoff"</string>
+    <string name="audio_side_description" formatted="false">"Adds a new side component to the original. Raising the lower cutoff keeps bass centered."</string>
+    <string name="audio_shuffler_amount" formatted="false">"Shuffler amount"</string>
+    <string name="audio_shuffler_frequency" formatted="false">"Shuffler frequency"</string>
+    <string name="audio_micropitch_detune" formatted="false">"MicroPitch detuning"</string>
+    <string name="audio_micropitch_delay" formatted="false">"MicroPitch delay"</string>
+    <string name="audio_micropitch_description" formatted="false">"Slight detuning and different delays create a double-tracking effect. Strong settings can sound like chorus and change the tone."</string>
+    <string name="audio_algorithm_extrastereo_description" formatted="false">"FFmpeg extrastereo boosts the channel difference across the full range. Mono stays mono."</string>
+    <string name="audio_algorithm_stereowiden_description" formatted="false">"FFmpeg stereowiden combines negative crossfeed with a short delay. Start with a moderate effect mix."</string>
+    <string name="audio_algorithm_haas_description" formatted="false">"FFmpeg Haas creates width through short delays of the center signal. At 100% wet it replaces the original side component, so use a moderate mix."</string>
+    <string name="audio_algorithm_allpass_description" formatted="false">"StereoWidener allpass changes phase relationships using all-pass filters. Lower and upper bands have separate controls."</string>
+    <string name="audio_algorithm_velvet_description" formatted="false">"StereoWidener velvet noise creates channel differences using sparse impulses. Lower and upper bands have separate controls."</string>
+    <string name="audio_algorithm_multiband_description" formatted="false">"Independent M/S width for low, mid and high frequencies. 100% in each band is the original width. It cannot create width from mono."</string>
+    <string name="audio_algorithm_pae_description" formatted="false">"PAE/PAD separates the directional part from ambience and mainly widens the ambience. This is an estimate from stereo, not instrument separation."</string>
+    <string name="audio_algorithm_side_description" formatted="false">"Creates a decorrelated side component from the center while preserving the original Mid and Side. Also works with mono; the resulting space is artificial."</string>
+    <string name="audio_algorithm_shuffler_description" formatted="false">"Stereo Shuffler changes the frequency balance of center and side components, redistributing width across the spectrum without delayed echoes."</string>
+    <string name="audio_algorithm_micropitch_description" formatted="false">"MicroPitch adds slightly detuned copies of the channels with short delays. This creative effect changes the sound of the recording."</string>
+    <string name="audio_algorithm_ms_description" formatted="false">"M/S changes the balance of center and side components while preserving low frequencies. It cannot create additional width from mono."</string>
+    <string name="audio_room_collapsed" formatted="false">"Room and reflections  ▾"</string>
+    <string name="audio_room_expanded" formatted="false">"Room and reflections  ▴"</string>
+    <string name="audio_room_open" formatted="false">"Open room settings"</string>
+    <string name="audio_room_close" formatted="false">"Collapse room settings"</string>
+    <string name="audio_room_summary" formatted="false">"A separate room effect for every listening mode."</string>
+    <string name="audio_room_enable" formatted="false">"Enable room effect"</string>
+    <string name="audio_room_mix" formatted="false">"Room mix"</string>
+    <string name="audio_room_minimum_size" formatted="false">"Minimum room size"</string>
+    <string name="audio_room_walls_description" formatted="false">"Walls move outward automatically when speakers are farther away."</string>
+    <string name="audio_room_damping" formatted="false">"High-frequency absorption"</string>
+    <string name="audio_room_decay" formatted="false">"Decay time"</string>
+    <string name="audio_room_description" formatted="false">"An approximate model of early reflections and reverberation, not a measured BRIR. Direct sound retains the selected HRTF when virtualization is enabled."</string>
+    <string name="audio_label_value">"%1$s: %2$s"</string>
+    <string name="audio_percent_value">"%1$d%%"</string>
+    <string name="audio_signed_percent_value">"%1$+d%%"</string>
+    <string name="audio_hz_value">"%1$d Hz"</string>
+    <string name="audio_db_value">"%1$s dB"</string>
+    <string name="audio_cents_value">"%1$s cents"</string>
+    <string name="audio_ms_value">"%1$s ms"</string>
+    <string name="audio_meters_value">"%1$s m"</string>
+    <string name="audio_seconds_value">"%1$s s"</string>
+    <string name="audio_openal_profile" formatted="false">"OpenAL Soft — built-in HRTF"</string>
+    <string name="audio_renderer_openal_description" formatted="false">"Uses the built-in OpenAL Soft HRTF. Imported SOFA profiles remain available for other renderers. Speaker positions update immediately."</string>
+    <string name="audio_renderer_sofalizer_description" formatted="false">"Uses the selected SOFA. Speaker positions update automatically; preparing new filters may take a moment."</string>
+    <string name="audio_renderer_steam_description" formatted="false">"Steam Audio uses the selected HRTF. Speaker positions update immediately."</string>
+    <string name="audio_validation_failed" formatted="false">"Could not validate sound settings"</string>
+    <string name="audio_validating_configuration">"Checking %1$s and the profile…"</string>
+    <string name="audio_changes_not_applied">"Sound changes were not applied. %1$s"</string>
+    <string name="audio_profile_load_failed" formatted="false">"Could not load the profile"</string>
+    <string name="audio_settings_apply_failed" formatted="false">"Could not apply sound settings"</string>
+    <string name="audio_copying_sofa" formatted="false">"Copying and checking SOFA…"</string>
+    <string name="audio_profile_saved_selected">"Profile “%1$s” saved and selected"</string>
+    <string name="audio_active_profile_unchanged">"The active profile was not changed. %1$s"</string>
+    <string name="audio_sofa_import_failed" formatted="false">"Could not import SOFA"</string>
+    <string name="audio_profile_unchanged" formatted="false">"Profile unchanged"</string>
+    <string name="audio_settings_deferred" formatted="false">"Settings saved. They will apply the next time a track starts."</string>
+    <string name="audio_left_speaker" formatted="false">"L · left"</string>
+    <string name="audio_right_speaker" formatted="false">"R · right"</string>
+    <string name="audio_speaker_position">"%1$s: %2$d° · elevation %3$d° · %4$s m"</string>
+    <string name="audio_degrees_accessibility">"%1$d degrees"</string>
+    <string name="audio_meters_accessibility">"%1$s meters"</string>
+    <string name="audio_scene_you" formatted="false">"YOU"</string>
+    <string name="audio_scene_front" formatted="false">"FRONT"</string>
+    <string name="audio_renderer_steam" formatted="false">"Steam Audio"</string>
+    <string name="audio_renderer_openal" formatted="false">"OpenAL Soft"</string>
+    <string name="audio_renderer_sofalizer" formatted="false">"FFmpeg · sofalizer"</string>
+    <string name="audio_upmixer_freesurround" formatted="false">"FreeSurround"</string>
+    <string name="audio_upmixer_pae" formatted="false">"PAE/PAD"</string>
+    <string name="audio_upmixer_ffmpeg" formatted="false">"FFmpeg · surround"</string>
+    <string name="audio_algorithm_ms" formatted="false">"M/S · low-frequency protection"</string>
+    <string name="audio_algorithm_extrastereo" formatted="false">"FFmpeg · extrastereo"</string>
+    <string name="audio_algorithm_stereowiden" formatted="false">"FFmpeg · stereowiden"</string>
+    <string name="audio_algorithm_haas" formatted="false">"FFmpeg · Haas"</string>
+    <string name="audio_algorithm_allpass" formatted="false">"StereoWidener · allpass"</string>
+    <string name="audio_algorithm_velvet" formatted="false">"StereoWidener · velvet noise"</string>
+    <string name="audio_algorithm_multiband" formatted="false">"Multiband M/S"</string>
+    <string name="audio_algorithm_pae" formatted="false">"PAE/PAD · ambience"</string>
+    <string name="audio_algorithm_side" formatted="false">"Synthesize Side from Mid"</string>
+    <string name="audio_algorithm_shuffler" formatted="false">"Stereo Shuffler"</string>
+    <string name="audio_algorithm_micropitch" formatted="false">"MicroPitch"</string>
+    <string name="audio_speaker_fl" formatted="false">"FL"</string>
+    <string name="audio_speaker_fr" formatted="false">"FR"</string>
+    <string name="audio_speaker_c" formatted="false">"C"</string>
+    <string name="audio_speaker_bl" formatted="false">"BL"</string>
+    <string name="audio_speaker_br" formatted="false">"BR"</string>
+    <string name="audio_speaker_sl" formatted="false">"SL"</string>
+    <string name="audio_speaker_sr" formatted="false">"SR"</string>
+    <string name="audio_speaker_l" formatted="false">"L"</string>
+    <string name="audio_speaker_r" formatted="false">"R"</string>
+    <string name="audio_sofalizer_needs_sofa" formatted="false">"sofalizer requires a SOFA profile"</string>
+    <string name="audio_profile_default" formatted="false">"Steam Audio — default"</string>
+    <string name="audio_profile_kemar" formatted="false">"MIT KEMAR"</string>
+    <string name="audio_profile_h3" formatted="false">"SADIE — H3"</string>
+    <string name="audio_profile_h10" formatted="false">"SADIE — H10"</string>
+    <string name="audio_my_profile" formatted="false">"My profile"</string>
+    <string name="audio_sofa_too_large" formatted="false">"The SOFA file is larger than 128 MiB"</string>
+    <string name="audio_sofa_open_failed" formatted="false">"Could not open the SOFA file"</string>
+    <string name="audio_profile_directory_failed" formatted="false">"Could not create the profiles folder"</string>
+    <string name="audio_sofa_size_limit" formatted="false">"The SOFA file exceeds the size limit (128 MiB)"</string>
+    <string name="audio_sofa_empty" formatted="false">"The selected file is empty"</string>
+    <string name="audio_sofa_invalid_container" formatted="false">"This is not a SOFA (NetCDF/HDF5) file. Select a file with the .sofa extension."</string>
+    <string name="audio_sofa_load_failed" formatted="false">"Could not load the SOFA profile"</string>
+    <string name="audio_sofa_incompatible" formatted="false">"Steam Audio could not open SOFA. A compatible SimpleFreeFieldHRIR profile with two ears and Data.Delay = 0 is required."</string>
+    <string name="audio_sofa_save_failed" formatted="false">"Could not save the SOFA profile"</string>
+    <string name="audio_profile_description_save_failed" formatted="false">"Could not save the profile description"</string>
+    <string name="audio_import_cancelled" formatted="false">"Import canceled"</string>
+    <string name="audio_sofa_missing" formatted="false">"The SOFA profile is missing. Import it again."</string>
+    <string name="audio_hrtf_save_failed" formatted="false">"Could not save HRTF"</string>
+</resources>

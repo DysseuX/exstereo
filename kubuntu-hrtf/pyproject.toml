@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-hrtf"
+version = "0.1.0"
+description = "Experimental local photo-to-HRTF desktop prototype"
+readme = "README.md"
+authors = [{name = "DysseuX (DysseuX Group)"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "Pillow>=10", "netCDF4>=1.6,<2", "torch>=2.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

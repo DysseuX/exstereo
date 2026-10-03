@@ -1,0 +1,13 @@
+torch 
+torchvision 
+torchaudio 
+pytorch-lightning 
+pytorch-lightning-bolts 
+matplotlib 
+librosa 
+pandas 
+tqdm 
+numpy 
+scipy 
+python-sofa 
+Pillow 
